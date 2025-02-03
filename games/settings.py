@@ -54,7 +54,7 @@ ROOT_URLCONF = 'games.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'jeux1/templates'],
+        'DIRS': [BASE_DIR / 'games/jeux1/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
