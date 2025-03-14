@@ -30,6 +30,31 @@ def rock_paper():
     else:
         print("You lose!")
 
+def rock_paper_for_test(choices_user, master_of_rock_paper_scissors):
+    print("Welcome to Rock Paper Scissors!")
+    print("Write on the following possibility :")
+    print("1 - Rock")
+    print("2 - Paper")
+    print("3 - Scissors")
+    if choices_user not in [1, 2, 3]:
+        print("Veuillez entrer un nombre valide (1, 2 ou 3).")
+        return rock_paper()
+
+    if master_of_rock_paper_scissors is None:
+        master_of_rock_paper_scissors = random.choice([1, 2, 3])
+
+    if master_of_rock_paper_scissors == choices_user:
+        return "No Winners sorry !"
+        rock_paper()
+    elif (
+         (master_of_rock_paper_scissors == 1 and choices_user == 2) or
+         (master_of_rock_paper_scissors == 2 and choices_user == 3) or
+         (master_of_rock_paper_scissors == 3 and choices_user == 1)
+    ):
+        return "You Win!"
+    else:
+        return "You lose!"
+
 
 def game_personage():
     faker = Faker()
@@ -122,4 +147,4 @@ def game_personage():
 
 
 # rock_paper()
-game_personage()
+# game_personage()
