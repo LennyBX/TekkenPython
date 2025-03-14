@@ -1,4 +1,4 @@
-from calcule import plus1, soustraction1, foix2, diviser2
+from calcule import *
 
 def test_plus1():
     assert plus1(3) == 4
