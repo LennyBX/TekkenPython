@@ -1,5 +1,4 @@
 import random
-from faker import Faker
 
 def rock_paper():
     print("Welcome to Rock Paper Scissors!")
@@ -57,7 +56,7 @@ def rock_paper_for_test(choices_user, master_of_rock_paper_scissors):
 
 
 def game_personage():
-    faker = Faker()
+    #faker = Faker()
 
     races = {
         1: "Humaine",
@@ -89,8 +88,8 @@ def game_personage():
     character2 = {
         "id": 2,
         "name": "Gaspar",
-        "city": faker.city(),
-        "country": faker.country(),
+        "city": "test",
+        "country": "test",
         "hp": random.randint(10, 10),
         "race": races[random.choice(list(races.keys())) ],
     }
