@@ -1,0 +1,2 @@
+[console_scripts]
+manage.py = games:django_manage

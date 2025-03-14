@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: tekken-project
+Version: 2025.2.3
+Summary: Python tekken project
+Author: Bondoux Lenny
+Maintainer: Bondoux Lenny
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: django>=5.1.5
+
+## Init du projet Django Tekken
+
+* Project with django 
+* An App Web
+
+### Créer un environement virtuel 
+* ```python3 -m venv .venv```
+### Activer l'environnement virtuel
+For Real Programmer
+* ```source .venv/bin/activate```
+
+For bouseux
+* ```.\.venv\Scripts\activate```
+* ### Installer les dépendances
+* ```pip install .```
+### Run this command à la racine
+* ```python3 manage.py runserver```
+### Go sur cette url
+* ```http://127.0.0.1:8000/jeux1/```
+
+
+### Have fun lets play :) 

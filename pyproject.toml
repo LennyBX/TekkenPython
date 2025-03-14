@@ -13,11 +13,3 @@ authors = [
 maintainers = [
   {name = "Bondoux Lenny"},
 ]
-
-[project.urls]
-Gamepage = "http://127.0.0.1:8000/jeux1/"
-
-[project.optional-dependencies]
-cli = [
-  "rich",
-]
