@@ -1,7 +1,7 @@
 import pytest
-
 from calcule import *
 from main import *
+from faker import Faker
 
 def test_plus1():
     assert plus1(3) == 4
